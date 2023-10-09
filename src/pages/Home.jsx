@@ -37,8 +37,8 @@ const Home = () => {
       {/* Start Slider Area   */}
       <div className="slider-activation slider-creative-agency">
         <ImageFb
-          src="/assets/images/bg/paralax/rotterdam.webp"
-          fallback="/assets/images/bg/paralax/rotterdam.jpg"
+          src="/assets/images/bg/paralax/leeuwarden.webp"
+          fallback="/assets/images/bg/paralax/leeuwarden.jpeg"
           className="home_bg"
         />
         {SlideList.map((value, index) => (
