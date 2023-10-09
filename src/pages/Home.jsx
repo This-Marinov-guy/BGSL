@@ -22,7 +22,7 @@ const Home = () => {
     {
       textPosition: "text-center",
       category: "",
-      title: "Bulgarian Society Rotterdam",
+      title: "Bulgarian Society Leeuwarden",
       description: "",
       buttonText: user.token ? "Go To Profile" : "Become an Active Member",
       style: user.token ? " rn-btn-reverse-green" : " btn-primary-color",

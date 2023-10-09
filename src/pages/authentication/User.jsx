@@ -347,7 +347,7 @@ const User = () => {
                         name="notificationTerms"
                       ></Field>
                       <p className="information">
-                        I consent to being notified by BGSR about events and
+                        I consent to being notified by bgsl about events and
                         discounts from us and our sponsors
                       </p>
                     </div>

@@ -98,7 +98,7 @@ const Footer = () => {
                   <div className="col-lg-12">
                     <div className="copyright-text">
                       <p>
-                        Copyright © 2023 Bulgarian Society Rotterdam. All
+                        Copyright © 2023 Bulgarian Society Leeuwarden. All
                         Rights Reserved.
                       </p>
 

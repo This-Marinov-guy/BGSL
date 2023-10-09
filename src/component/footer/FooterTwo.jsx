@@ -63,7 +63,7 @@ const FooterTwo = () => {
             <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
               <div className="text">
                 <p>
-                  Copyright © 2023 Bulgarian Society Rotterdam. All Rights
+                  Copyright © 2023 Bulgarian Society Leeuwarden. All Rights
                   Reserved.
                 </p>
               </div>

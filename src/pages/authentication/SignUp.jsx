@@ -185,7 +185,7 @@ const SignUp = (props) => {
               formData.append("itemId", "price_1Nx3UzIOw5UGbAo1AEqZ0P02");
               formData.append("origin_url", window.location.origin);
               formData.append("method", "signup");
-              formData.append("region", 'Rotterdam');
+              formData.append("region", 'Leeuwarden');
               formData.append("name", values.name);
               formData.append("surname", values.surname);
               formData.append("birth", values.birth);
@@ -400,8 +400,8 @@ const SignUp = (props) => {
                       <option value="" disabled>
                         Select your university
                       </option>
-                      <option value="Erasmus University Rotterdam">Erasmus University Rotterdam</option>
-                      <option value="Rotterdam University of Applied Sciences">Rotterdam University of Applied Sciences</option>
+                      <option value="Erasmus University Leeuwarden">Erasmus University Leeuwarden</option>
+                      <option value="Leeuwarden University of Applied Sciences">Leeuwarden University of Applied Sciences</option>
                       <option value="Codarts University of the Arts">Codarts University of the Arts</option>
                       <option value="other">Other univerisity</option>
                       <option value="working">Working</option>

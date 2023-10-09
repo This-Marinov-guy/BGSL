@@ -16,14 +16,14 @@ const Policy = React.memo(() => {
       />
       <div className="container mt--200">
         <h2 className="center_text">
-          Bulgarian Society Rotterdam Rules and Regulations
+          Bulgarian Society Leeuwarden Rules and Regulations
         </h2>
       </div>
       <div className="container mt--80 mb--80">
         <h3>Article 1. Structure of the organization and the roles within
         </h3>
         <p className="mt--40 ml--10">
-          1. The Bulgarian Society Rotterdam (BGSR) provides a form for member registration. Completion of the registration form will provide the individual with a WhatsApp payment request including the yearly membership fee of €5. Once the payment has been received, the new member will then be added to the two WhatsApp groups: one for discussion of events, and one for communication between members of the association. Once individuals have gained membership, they will have the ability to join internal events and receive discounts from sponsors, receive discounts for open events, and attend all organised events.
+          1. The Bulgarian Society Leeuwarden (bgsl) provides a form for member registration. Completion of the registration form will provide the individual with a WhatsApp payment request including the yearly membership fee of €5. Once the payment has been received, the new member will then be added to the two WhatsApp groups: one for discussion of events, and one for communication between members of the association. Once individuals have gained membership, they will have the ability to join internal events and receive discounts from sponsors, receive discounts for open events, and attend all organised events.
 
         </p>
         <p className="mt--40 ml--10">
@@ -55,7 +55,7 @@ const Policy = React.memo(() => {
 
         </p>
         <p className="mt--40 ml--20">
-          e. The role of the Creative Director is to create the general idea and direction of how Bulgarian Society Rotterdam is going to present itself to the public.
+          e. The role of the Creative Director is to create the general idea and direction of how Bulgarian Society Leeuwarden is going to present itself to the public.
 
         </p>
         <p className="mt--40 ml--20">
@@ -93,10 +93,10 @@ const Policy = React.memo(() => {
 
         </p>
         <h3 className="mt--80">Article 3. Goals for the organisation </h3>
-        <p className="mt--40">Hereby the goals and intentions of the student association Bulgarian Society Rotterdam are stated.
+        <p className="mt--40">Hereby the goals and intentions of the student association Bulgarian Society Leeuwarden are stated.
         </p>
         <p className="mt--40 ml--10">
-          1. First and foremost we aim to bring the Bulgarian students in the city of Rotterdam together.
+          1. First and foremost we aim to bring the Bulgarian students in the city of Leeuwarden together.
           This goal will be achieved by actively promoting the organization through social media, posters, word-of-mouth, and other media.
 
 
@@ -117,7 +117,7 @@ const Policy = React.memo(() => {
 
         </p>
         <p className="mt--40 mb--80 ml--10">
-          5. We want to represent the Bulgarian culture in the city of Rotterdam.
+          5. We want to represent the Bulgarian culture in the city of Leeuwarden.
           We are going to achieve this goal by collaborating with fellow student organizations in the creation of mixed events
 
         </p>

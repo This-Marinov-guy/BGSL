@@ -19,7 +19,7 @@ const Policy = React.memo(() => {
                     Terms and conditions:
                 </h2>
                 <h2 className="center_text">
-                    Short promo video contest organised by Bulgarian Society Rotterdam      </h2>
+                    Short promo video contest organised by Bulgarian Society Leeuwarden      </h2>
             </div>
             <div className="container mt--80 mb--80">
                 <h3>1. Who can enter?
@@ -42,13 +42,13 @@ const Policy = React.memo(() => {
                     </li>
                     <li>Format 9:16 (instagram reel)
                     </li>
-                    <li>Contains photos and video materials provided by BGSR for the purpose (sent to you via email after
+                    <li>Contains photos and video materials provided by bgsl for the purpose (sent to you via email after
                         registration for the contest)
                     </li>
-                    <li>Shows the achievements of BGSR
+                    <li>Shows the achievements of bgsl
 
                     </li>
-                    <li className="mb--50">Uses the logo of BGSR</li>
+                    <li className="mb--50">Uses the logo of bgsl</li>
 
 
                 </ul>
@@ -85,13 +85,13 @@ const Policy = React.memo(() => {
 
                 </h3>
                 <p className="mt--10 mb--50">
-                    The winner will receive a contribution of 50€ from Bulgarian Society Rotterdam
+                    The winner will receive a contribution of 50€ from Bulgarian Society Leeuwarden
                 </p>
                 <h3>8. Who holds the rights to the video?
 
                 </h3>
                 <p className="mt--10 mb--50">
-                    Bulgarian Society Rotterdam reserves the right to use the submitted videos for the purpose of promoting the
+                    Bulgarian Society Leeuwarden reserves the right to use the submitted videos for the purpose of promoting the
                     organization.
                 </p>
                 <h3>9. Any other questions?

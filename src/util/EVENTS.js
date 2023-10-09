@@ -29,7 +29,7 @@ export const OPEN_SOCIETY_EVENTS = [
   //   freePass: ["elenamateva@abv.bg", "vladislavmarinov3142@gmail.com", "z.tsenovska@gmail.com", "mnanova6@gmail.com", "tsvetina.arabadzhieva@gmail.com", 'mariakristi.radeva@gmail.com'],
   //   extraInputs: false,
   //   text: [
-  //     `Welcome (back😉) to Rotterdam!`,
+  //     `Welcome (back😉) to Leeuwarden!`,
   //     `We are thrilled to announce our Intro week package, including four events spanning three incredible days! Let’s kick off the new academic year together!`,
   //     '...',
   //     `Добре дошли (отново😉) в Грьонинген!`,
@@ -89,7 +89,7 @@ export const OPEN_NON_SOCIETY_EVENTS = [
   //   memberEntry: 5,
   //   text: [
   //     "Join our Barista Course led by Henry Daniels, owner of Revista Coffee and become a pro barista in no time!",
-  //     "As a member of the Bulgarian Society Rotterdam, you'll get a special discount. The original price of 30 euros is now only 20 euros for members. You will be contacted by Henry to find a suitable date for the course. The course is usually held Tuesday and Wednesday mornings from 10-12. After finishing the course you will be able to receive a reference letter for a future employer. You will pay for the course in person!",
+  //     "As a member of the Bulgarian Society Leeuwarden, you'll get a special discount. The original price of 30 euros is now only 20 euros for members. You will be contacted by Henry to find a suitable date for the course. The course is usually held Tuesday and Wednesday mornings from 10-12. After finishing the course you will be able to receive a reference letter for a future employer. You will pay for the course in person!",
   //   ],
   //   images: ["/assets/images/portfolio/portfolio-7"],
   //   thumbnail: "/assets/images/portfolio/portfolio-7",
@@ -163,7 +163,7 @@ export const EVENT_REFLECTION_DETAILS = [
     attendance: "17",
     comments: "15",
     text: [
-      `Henri holds a Bachelors Degree in Philosophy and Political Science and will be Graduating with Honours and an LLB in International and European Technology Law in June 2023. Beside his studies, he has managed and owns two successful businesses - Revista Coffee and Moonshadow Sailing. He has been the VP for marketing and the President of the European Law Student Association, Rotterdam. His areas of expertise include small-business management, critical thinking, public speaking, and competition law. His lecture was about his legacy so far, how he founded his business and the advice he wanted to give to any current and future entrepreneur. `,
+      `Henri holds a Bachelors Degree in Philosophy and Political Science and will be Graduating with Honours and an LLB in International and European Technology Law in June 2023. Beside his studies, he has managed and owns two successful businesses - Revista Coffee and Moonshadow Sailing. He has been the VP for marketing and the President of the European Law Student Association, Leeuwarden. His areas of expertise include small-business management, critical thinking, public speaking, and competition law. His lecture was about his legacy so far, how he founded his business and the advice he wanted to give to any current and future entrepreneur. `,
     ],
     images: [{ id: "1", image: "entrepreneur-series/ent-I", text: "" }],
   },

@@ -49,7 +49,7 @@ const Articles = () => {
                         alt="Article Images"
                     />
                     <p className="mb--40">
-                        On Saturday, 22nd of April, our second lecture of the Entrepreneurship Series for Bulgarian Society Rotterdam was held by Toni Enchev. He
+                        On Saturday, 22nd of April, our second lecture of the Entrepreneurship Series for Bulgarian Society Leeuwarden was held by Toni Enchev. He
                         successfully converted his abandoned family villa into a
                         place for unforgettable parties, doing it from scratch with
                         the help of family and friends …not only once but TWICE!
