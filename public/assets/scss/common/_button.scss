@@ -83,10 +83,10 @@ a {
     }
 
     &.rn-btn-green {
-      border: 2px solid #017363;
-      color: #017363;
+      border: 2px solid #ff914d;
+      color: #ff914d;
       &:hover {
-        background: #017363;
+        background: #ff914d;
         color: #fff;
       }
     }
@@ -270,7 +270,7 @@ button {
 .btn-bul {
   max-width: 150px;
   max-height: 100px;
-  background: linear-gradient(to bottom, #faf9f6 0%, #017363 50%, #f92820 100%);
+  background: linear-gradient(to bottom, #faf9f6 0%, #ff914d 50%, #ff914d 100%);
   transition: background 0.3s ease;
 }
 
@@ -279,10 +279,10 @@ button {
     background-color: #faf9f6;
   }
   33.3% {
-    background-color: #017363;
+    background-color: #ff914d;
   }
   66.6% {
-    background-color: #f92820;
+    background-color: #ff914d;
   }
   100% {
     background-color: #faf9f6;

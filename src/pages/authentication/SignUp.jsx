@@ -108,7 +108,7 @@ const SignUp = (props) => {
                   style={
                     val.title === "Active Member"
                       ? { border: "5px solid #ffd700" }
-                      : { border: "5px solid #017363" }
+                      : { border: "5px solid #ff914d" }
                   }
                   className="service service__style--2"
                   onClick={() => {
@@ -532,7 +532,7 @@ const SignUp = (props) => {
                       <p className="information">
                         I have read and accept the&nbsp;
                         <a
-                          style={{ color: "#017363" }}
+                          style={{ color: "#ff914d" }}
                           href="/rules-and-regulations"
                           target="_blank"
                         >

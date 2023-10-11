@@ -209,7 +209,7 @@ const ContestRegister = (props) => {
                                             <p className="information">
                                                 I have read and accept the&nbsp;
                                                 <a
-                                                    style={{ color: "#017363" }}
+                                                    style={{ color: "#ff914d" }}
                                                     href="/contest/promo-video"
                                                     target="_blank"
                                                 >
