@@ -27,7 +27,7 @@ const About = React.memo(() => {
       {/* End About Area  */}
 
       {/* Start CounterUp Area */}
-      <div className="rn-counterup-area pt--140 p pb--110 bg_color--1">
+      {/* <div className="rn-counterup-area pt--140 p pb--110 bg_color--1">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -37,7 +37,7 @@ const About = React.memo(() => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End CounterUp Area */}
 
       {/* Start Speech Area */}
