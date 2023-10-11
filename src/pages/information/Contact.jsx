@@ -13,7 +13,7 @@ import { FiMail } from "react-icons/fi";
 import { FaInstagram, FaFlickr, FaLink, FaFacebookF } from "react-icons/fa";
 
 const SocialShare = [
-  { Social: <FaInstagram />, link: "https://www.instagram.com/bulgariansociety.rtm/" },
+  { Social: <FaInstagram />, link: "https://www.instagram.com/bulgariansociety.lwd/" },
   // {
   //   Social: <FaFacebookF />,
   //   link: "https://www.facebook.com/profile.php?id=100090061861023",
@@ -54,9 +54,9 @@ const Contact = () => {
                   <p>
                     <a
                       style={{ overflowWrap: "break-word" }}
-                      href="mailto:bulgariansociety.rtm@gmail.com"
+                      href="mailto:bulgariansociety.lwd@gmail.com"
                     >
-                      bulgariansociety.rtm@gmail.com
+                      bulgariansociety.lwd@gmail.com
                     </a>
                   </p>
                 </div>

@@ -9,7 +9,7 @@ import { selectDonation, showDonation } from "../../redux/donation";
 const SocialShare = [
   {
     Social: <FaInstagram />,
-    link: "https://www.instagram.com/bulgariansociety.rtm/",
+    link: "https://www.instagram.com/bulgariansociety.lwd/",
   },
   // {
   //   Social: <FaFacebookF />,

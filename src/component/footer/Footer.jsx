@@ -8,7 +8,7 @@ import { selectDonation, showDonation } from "../../redux/donation";
 const SocialShare = [
   {
     Social: <FaInstagram />,
-    link: "https://www.instagram.com/bulgariansociety.rtm/",
+    link: "https://www.instagram.com/bulgariansociety.lwd/",
   },
   // {
   //   Social: <FaFacebookF />,
@@ -76,8 +76,8 @@ const Footer = () => {
                       <h4>Find us</h4>
                       <ul className="ft-link">
                         <li>
-                          <a href="mailto:bulgariansociety.rtm@gmail.com">
-                            bulgariansociety.rtm@gmail.com
+                          <a href="mailto:bulgariansociety.lwd@gmail.com">
+                            bulgariansociety.lwd@gmail.com
                           </a>
                         </li>
                       </ul>
