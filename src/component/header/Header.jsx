@@ -116,9 +116,9 @@ const Header = (props) => {
                 <li>
                   <Link to="/contact">Contact</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/active-member">Active Member</Link>
-                </li>
+                </li> */}
                 {user.token && (
                   <li>
                     <Link to={`/user/${user.userId}`}>Profile</Link>

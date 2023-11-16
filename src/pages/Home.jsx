@@ -26,7 +26,7 @@ const Home = () => {
       description: "",
       buttonText: user.token ? "Go To Profile" : "Become an Active Member",
       style: user.token ? " rn-btn-reverse-green" : " btn-primary-color",
-      buttonLink: user.token ? `/user/${user.userId}` : "/active-member",
+      buttonLink: user.token ? `/user/${user.userId}` : "/signup",
     },
   ];
 
@@ -61,7 +61,7 @@ const Home = () => {
                     ) : (
                       ""
                     )}
-                    {value.buttonText && (
+                    {/* {value.buttonText && (
                       <div className="slide-btn">
                         <a
                           style={{ fontSize: "24px" }}
@@ -71,7 +71,7 @@ const Home = () => {
                           {value.buttonText}
                         </a>
                       </div>
-                    )}
+                    )} */}
                   </div>
                 </div>
               </div>
