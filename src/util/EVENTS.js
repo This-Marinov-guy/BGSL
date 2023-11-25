@@ -1,79 +1,88 @@
 // add ticket_link : '*link for the tickets' for outside ticket purchase
 export const OPEN_SOCIETY_EVENTS = [
-  // {
-  //   visible: true,
-  //   subEvent: {
-  //     description: 'You can purchase ONLY the dinner from this event separately - just click below!',
-  //     link: '/event-details/Introduction%20Week%20(DINNER%20ONLY)'
-  //   },
-  //   title: "Introduction Week (FULL PASS)",
-  //   description: "Welcome to the new term",
-  //   bgImage: "21",
-  //   date: "15th-19th September",
-  //   time: "Check Program",
-  //   ticketTimer: '2023-09-15T04:59:00',
-  //   ticketLimit: 60,
-  //   //Use the corrected date and time for changes in the date or time. Do not change the initial ones as it will make a new event in the DB
-  //   correctedDate: "",
-  //   correctedTime: "",
-  //   where: `Introduction Lecture - Lust |
-  //   City walk - Starting point in front of Lust |
-  //   Dinner - Wijkrestaurant De Duindoorn, Duindoornstraat 91, 9741 NP |
-  //   Party - Club Sunny Beach`,
-  //   entry: 15,
-  //   // memberEntry: 5,
-  //   including: ['', ''],
-  //   price_id: 'price_1NmbxbIOw5UGbAo1SSvjARlW',
-  //   memberPrice_id: 'price_1NmbxbIOw5UGbAo1SSvjARlW',
-  //   activeMemberPrice_id: 'price_1NmbxbIOw5UGbAo1SSvjARlW',
-  //   freePass: ["elenamateva@abv.bg", "vladislavmarinov3142@gmail.com", "z.tsenovska@gmail.com", "mnanova6@gmail.com", "tsvetina.arabadzhieva@gmail.com", 'mariakristi.radeva@gmail.com'],
-  //   extraInputs: false,
-  //   text: [
-  //     `Welcome (back😉) to Leeuwarden!`,
-  //     `We are thrilled to announce our Intro week package, including four events spanning three incredible days! Let’s kick off the new academic year together!`,
-  //     '...',
-  //     `Добре дошли (отново😉) в Грьонинген!`,
-  //     `Ние сме въодушевени да обявим нашия пакет за Въведителната седмица, включващ четири събития, простиращи се през три невероятни дни! Да започнем заедно новата учебна година!`,
-  //   ],
-  //   ticket_img: '/assets/images/tickets/ticket-5.jpg',
-  //   images: ["/assets/images/events/intro-week/2", "/assets/images/events/intro-week/3"],
-  //   thumbnail: "/assets/images/portfolio/portfolio-12",
-  // },
-  // {
-  //   visible: false,
-  //   title: "Introduction Week (DINNER ONLY)",
-  //   newTitle: 'Bulgarian Dinner',
-  //   description: "Welcome to the new term",
-  //   bgImage: "22",
-  //   date: "16th September",
-  //   time: "19:00",
-  //   ticketTimer: '2023-09-16T04:59:00',
-  //   ticketLimit: 70,
-  //   //Use the corrected date and time for changes in the date or time. Do not change the initial ones as it will make a new event in the DB
-  //   correctedDate: "",
-  //   correctedTime: "",
-  //   where: `Wijkrestaurant De Duindoorn | Duindoornstraat 91, 9741 NP`,
-  //   entry: 12,
-  //   memberEntry: 10,
-  //   including: ['(discounted including menu)', '(including menu)'],
-  //   price_id: 'price_1Nmc1rIOw5UGbAo15v1W2Lt8',
-  //   memberPrice_id: 'price_1Nmc00IOw5UGbAo1ZfaT6m4X',
-  //   activeMemberPrice_id: 'price_1Nmc00IOw5UGbAo1AqDIkHKa',
-  //   freePass: ["elenamateva@abv.bg", "vladislavmarinov3142@gmail.com", "z.tsenovska@gmail.com", "mnanova6@gmail.com", "tsvetina.arabadzhieva@gmail.com", 'mariakristi.radeva@gmail.com'],
-  //   extraInputs: false,
-  //   text: [
-  //     `Calling all the veterans!`,
-  //     `At the dinner, you will have the opportunity to meet the new additions to the town and catch up with the old ones after the summer!`,
-  //     `In addition, you can enjoy our delicious Bulgarian cuisine!`,
-  //     '...',
-  //     `До всички ветерани!`,
-  //     `На вечерята ще можете да се запознаете с новите попълнения в града и да наваксате след лятото със старите!`,
-  //     `Освен това, може да се насладите на вкусната ни българска кухня!`,
-  //   ],
-  //   ticket_img: '/assets/images/tickets/ticket-6.jpg',
-  //   images: ["/assets/images/events/intro-week/3"],
-  //   thumbnail: "/assets/images/portfolio/portfolio-13",
-  // },
+  {
+    visible: true,
+    subEvent: {
+      description: 'You can purchase ONLY the party from this event separately - just click below!',
+      link: '/event-details/Bulgarian%Party'
+    },
+    title: "Bulgarian Dinner & Party",
+    description: "Welcome to BGSL",
+    bgImage: "22",
+    date: "8th December",
+    time: "18:30",
+    ticketTimer: '2023-12-07T00:59:00',
+    ticketLimit: 80,
+    //Use the corrected date and time for changes in the date or time. Do not change the initial ones as it will make a new event in the DB
+    correctedDate: "",
+    correctedTime: "",
+    where: `Restaurant Fizz | Club Lix`,
+    entry: 10,
+    // memberEntry: 5,
+    including: ['menu + drinks + shot', 'menu + drinks + shot'],
+    price_id: 'price_1OGGd3IOw5UGbAo1ZTkZ4crk',
+    memberPrice_id: 'price_1OGGd3IOw5UGbAo1ZTkZ4crk',
+    activeMemberPrice_id: 'price_1OGGd3IOw5UGbAo1ZTkZ4crk',
+    freePass: ["vlady1002@abv.bg"],
+    extraInputs: true,
+    text: [
+      `The most iconic Bulgarian student celebration finally comes to Leeuwarden! Say ‘no’ to a boring Friday night and join us on December 8th to experience your MOST MEMORABLE evening of the year! 
+      `,
+      `Bulgarian comfort food, rhythms and so much more… `,
+      'We will be expecting you at 18:30 at @Fizz Leeuwarden ( Zaailand 106, 8911 BN Leeuwarden) and will welcome you with a shot of Rakiya and a piece of Pitka with honey or Sharena sol. ',
+      `What to expect? `,
+      `- A set of soul-warming appetizers
+      `,
+      `- A delicious main course `,
+      `- A dessert as good as if your grandma made it for you 
+      `,
+
+      `To set the atmosphere, @djzander will be playing your favourite hits and will occasionally be inviting you for a horo. `,
+      `And do not worry, the evening will continue at Club LIXX starting from 23:00 where @djzander and @sashoangelov will make you feel at home with the sounds of Bulgarian music. Not only that but if you had been to the dinner, a FREE SHOT will be awaiting you at the club!
+      `,
+      `Bring your best party mood, we will be waiting for you! `,
+      `Tickets are limited so make sure to secure your spot NOW!`,
+      `*Available option to book place for the PARTY ONLY`
+    ],
+    ticket_img: '/assets/images/tickets/ticket-2.png',
+    images: ["/assets/images/portfolio/portfolio-1"],
+    thumbnail: "/assets/images/portfolio/portfolio-1",
+  },
+  {
+    visible: false,
+    title: "Bulgarian Party",
+    // newTitle: 'Bulgarian Dinner',
+    description: "Party like a Balkan",
+    bgImage: "24",
+    date: "8th December",
+    time: "23:00",
+    ticketTimer: '2023-12-07T01:59:00',
+    ticketLimit: 80,
+    //Use the corrected date and time for changes in the date or time. Do not change the initial ones as it will make a new event in the DB
+    correctedDate: "",
+    correctedTime: "",
+    where: `Club Lix`,
+    entry: 5,
+    memberEntry: 5,
+    including: ['(+ free drink)', '(+ free drink)'],
+    price_id: 'price_1OGGdsIOw5UGbAo1cbpW99BM',
+    memberPrice_id: 'price_1OGGdsIOw5UGbAo1cbpW99BM',
+    activeMemberPrice_id: 'price_1OGGdsIOw5UGbAo1cbpW99BM',
+    freePass: ["vlady1002@abv.bg"],
+    extraInputs: false,
+    text: [
+      `The most iconic Bulgarian student celebration finally comes to Leeuwarden! Say ‘no’ to a boring Friday night and join us on December 8th to experience your MOST MEMORABLE evening of the year! 
+      `,
+      `Starting from 23:00 where @djzander and @sashoangelov will make you feel at home with the sounds of Bulgarian music. Not only that but if you had been to the dinner, a FREE SHOT will be awaiting you at the club!
+`,
+      `Bring your best party mood, we will be waiting for you! `,
+      `Tickets are limited so make sure to secure your spot NOW!`,
+      `*Available option to book place for the DINNER as well`
+    ],
+    ticket_img: '/assets/images/tickets/ticket-1.jpg',
+    images: ["/assets/images/portfolio/portfolio-1"],
+    thumbnail: "/assets/images/portfolio/portfolio-1",
+  },
 ];
 
 export const OPEN_NON_SOCIETY_EVENTS = [

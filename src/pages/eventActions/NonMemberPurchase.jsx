@@ -20,7 +20,7 @@ const schema = yup.object().shape({
   phone: yup.string().required(),
   email: yup.string().email("Please enter a valid email").required(),
   menuType: yup.string().required("Please select a menu"),
-  drink: yup.string().required('Please select your drink'),
+  dessert: yup.string().required('Please select your dessert'),
   policyTerms: yup.bool().required().oneOf([true], "Terms must be accepted"),
   payTerms: yup.bool().required().oneOf([true], "Terms must be accepted"),
 });
@@ -47,7 +47,7 @@ const NonMemberPurchase = () => {
       <div className="container">
         <div className="mt--200">
           <h2 className="center_text mb--80">Purchase a Ticket</h2>
-          <div className="team_member_border-3 center_section" style={{maxWidth: '500px', margin:'60px auto'}} >
+          <div className="team_member_border-3 center_section" style={{ maxWidth: '500px', margin: '60px auto' }} >
             <p className="information center_text">
               By becoming a member the cost of the ticket will be reduced
               and the information will be prefilled for ticket purchasing
@@ -151,7 +151,7 @@ const NonMemberPurchase = () => {
                     formData.append("eventDate", target.date);
                     formData.append("guestEmail", values.email);
                     if (target.extraInputs) {
-                      formData.append('preferences', JSON.stringify({ menuType: values.menuType, drink: values.drink }))
+                      formData.append('preferences', JSON.stringify({ menuType: values.menuType, dessert: values.dessert, allergies: values.allergies || 'none' }))
                     }
                     formData.append(
                       "guestName",
@@ -185,7 +185,8 @@ const NonMemberPurchase = () => {
                   email: "",
                   phone: "",
                   menuType: target.extraInputs ? "" : 'none',
-                  drink: target.extraInputs ? "" : 'none',
+                  dessert: target.extraInputs ? "" : 'none',
+                  allergies: target.extraInputs ? "" : 'none',
                   policyTerms: false,
                   payTerms: false,
                 }}

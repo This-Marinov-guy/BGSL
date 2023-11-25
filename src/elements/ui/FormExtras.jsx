@@ -1,18 +1,19 @@
 import React from "react";
-import {Field, ErrorMessage } from "formik";
+import { Field, ErrorMessage } from "formik";
 
 const FormExtras = () => {
     return (
         <div className="row container mt--40">
             <div className="col-lg-12 col-md-12 col-12">
-            <h3>Preferences</h3>
+                <h3>Preferences</h3>
                 <div className="rnform-group">
                     <Field as="select" name="menuType">
                         <option value="" disabled>
-                            Select your menu
+                            Select your main course
                         </option>
-                        <option value="Classic">classic</option>
-                        <option value="Vegetarian">vegetarian</option>
+                        <option value="Moussaka">Moussaka</option>
+                        <option value="Vegan stuffed peppers">Vegan stuffed peppers
+                        </option>
 
                     </Field>
                     <ErrorMessage
@@ -24,20 +25,30 @@ const FormExtras = () => {
             </div>
             <div className="col-lg-12 col-md-12 col-12">
                 <div className="rnform-group">
-                    <Field as="select" name="drink">
+                    <Field as="select" name="dessert">
                         <option value="" disabled>
-                            Select your drink
+                            Select your dessert
                         </option>
-                        <option value="soft drink">soft drink</option>
-                        <option value="beer">beer</option>
-                        <option value="white wine">white wine</option>
-                        <option value="red wine">red wine</option>
+                        <option value="Traditional biscuit cake">Traditional biscuit cake
+                        </option>
+                        <option value="Vegan biscuit cake">Vegan biscuit cake
+                        </option>
+
                     </Field>
                     <ErrorMessage
                         className="error"
-                        name="drink"
+                        name="dessert"
                         component="div"
                     />
+                </div>
+            </div>
+            <div className="col-lg-12 col-md-12 col-12">
+                <div className="rnform-group">
+                    <Field type='text' name="allergies" placeholder="Any allergies"
+                    >
+
+                    </Field>
+
                 </div>
             </div>
         </div>
