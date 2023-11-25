@@ -64,7 +64,7 @@ export const OPEN_SOCIETY_EVENTS = [
     where: `Club Lix`,
     entry: 5,
     memberEntry: 5,
-    including: ['(+ free drink)', '(+ free drink)'],
+    including: ['', ''],
     price_id: 'price_1OGGdsIOw5UGbAo1cbpW99BM',
     memberPrice_id: 'price_1OGGdsIOw5UGbAo1cbpW99BM',
     activeMemberPrice_id: 'price_1OGGdsIOw5UGbAo1cbpW99BM',
