@@ -115,20 +115,7 @@ const EventDetails = () => {
                       </h4> : <h4 >Check ticket portal</h4>}
                     </div>
                   </div>
-                  {
-                    //for links to subEvent
-                    target.subEvent &&
-                    <div className="mt--40 mb--40 team_member_border-1 center_section">
-                      <h3 className="center_text">
-                        {target.subEvent.description}                        </h3>
-                      <a
-                        className="rn-button-style--2 rn-btn-reverse-green center_text mb--10"
-                        href={target.subEvent.link}
-                      >
-                        <span className="">Check it out</span>
-                      </a>
-                    </div>
-                  }
+
                   {loading ? <div>
                     <h3 className="mt--20">Checking Ticket Availability - please be patient!</h3>
                     <Loader />
@@ -155,6 +142,20 @@ const EventDetails = () => {
                       </a>}
                       {target.ticketTimer && <Countdown targetTime={target.ticketTimer} setEventClosed={setEventClosed} />}
                     </div>}
+                  {
+                    //for links to subEvent
+                    target.subEvent &&
+                    <div className="mt--40 mb--40 team_member_border-1 center_section">
+                      <h3 className="center_text">
+                        {target.subEvent.description}                        </h3>
+                      <a
+                        className="rn-button-style--2 rn-btn-reverse-green center_text mb--10"
+                        href={target.subEvent.link}
+                      >
+                        <span className="">Check it out</span>
+                      </a>
+                    </div>
+                  }
                 </div>
                 <br />
                 {/* Start Contact Map  */}
