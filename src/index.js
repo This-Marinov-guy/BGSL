@@ -131,10 +131,10 @@ const Root = () => {
               <ActiveMember setNotification={setNotification} />
             </Route> */}
 
-            {/* <Route exact path={`/future-events`} component={FutureEvents} />
+            <Route exact path={`/future-events`} component={FutureEvents} />
 
-            <Route exact path={`/past-events`} component={PastEvents} /> */}
-            {/* <Route path={`/event-details/:eventId`} component={EventDetails} /> */}
+            {/* <Route exact path={`/past-events`} component={PastEvents} /> */}
+            <Route path={`/event-details/:eventId`} component={EventDetails} />
 
             {/* <Route exact path={"/other-event-details/:eventId"}>
               <NonSocietyEvent setNotification={setNotification} />
@@ -170,11 +170,11 @@ const Root = () => {
                 <Route exact path={`/signup`}>
                   <SignUp setNotification={setNotification} />
                 </Route> */}
-                {/* <Route
+                <Route
                   exact
                   path={"/purchase-ticket/:eventId"}
                   component={NonMemberPurchase}
-                /> */}
+                />
                 <Route path="*" component={Error404} />
               </Switch>
             )}
