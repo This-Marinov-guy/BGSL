@@ -47,7 +47,7 @@ const NonMemberPurchase = () => {
       <div className="container">
         <div className="mt--200">
           <h2 className="center_text mb--80">Purchase a Ticket</h2>
-          <div className="team_member_border-3 center_section" style={{ maxWidth: '500px', margin: '60px auto' }} >
+          {/* <div className="team_member_border-3 center_section" style={{ maxWidth: '500px', margin: '60px auto' }} >
             <p className="information center_text">
               By becoming a member the cost of the ticket will be reduced
               and the information will be prefilled for ticket purchasing
@@ -64,7 +64,7 @@ const NonMemberPurchase = () => {
             >
               <span className="">Become a Member</span>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="row">
           <div className="col-lg-4 col-md-12 col-12">

@@ -4,7 +4,7 @@ export const OPEN_SOCIETY_EVENTS = [
     visible: true,
     subEvent: {
       description: 'You can purchase ONLY the party from this event separately - just click below!',
-      link: '/event-details/Bulgarian%Party'
+      link: '/event-details/Bulgarian Party'
     },
     title: "Bulgarian Dinner & Party",
     description: "Welcome to BGSL",
