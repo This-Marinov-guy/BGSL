@@ -144,8 +144,11 @@ const NonMemberPurchase = () => {
                       values.surname +
                       "_GUEST"
                     );
-                    formData.append("itemId", target.price_id);
-                    formData.append("origin_url", window.location.origin);
+                    if (target.activeMemberPrice_id && (target.discountPass.includes(values.email))) {
+                      formData.append("itemId", target.activeMemberPrice_id);
+                    } else {
+                      formData.append("itemId", target.price_id);
+                    } formData.append("origin_url", window.location.origin);
                     formData.append("method", "buy_guest_ticket");
                     formData.append("eventName", target.title);
                     formData.append("eventDate", target.date);
