@@ -36,7 +36,8 @@ export const OPEN_SOCIETY_EVENTS = [
       'danailova97@gmail.com',
       'miryana.b.ivanova@gmail.com',
       'vesi_it@abv.bg',
-      'alex_ivanov2002@gmail.com'
+      'alex_ivanov2002@gmail.com',
+      'bulgariansociety.lwd@gmail.com'
     ],
     freePass: ["vlady1002@abv.bg"],
     extraInputs: true,
@@ -96,7 +97,8 @@ export const OPEN_SOCIETY_EVENTS = [
       'danailova97@gmail.com',
       'miryana.b.ivanova@gmail.com',
       'vesi_it@abv.bg',
-      'alex_ivanov2002@gmail.com'
+      'alex_ivanov2002@gmail.com',
+      'bulgariansociety.lwd@gmail.com'
     ],
     freePass: ["vlady1002@abv.bg"],
     extraInputs: false,
