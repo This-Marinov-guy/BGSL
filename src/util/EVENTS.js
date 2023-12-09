@@ -1,120 +1,120 @@
 // add ticket_link : '*link for the tickets' for outside ticket purchase
 export const OPEN_SOCIETY_EVENTS = [
-  {
-    visible: true,
-    subEvent: {
-      description: 'You can purchase ONLY the party from this event separately - just click below!',
-      link: '/event-details/Bulgarian Party'
-    },
-    title: "Bulgarian Dinner & Party",
-    description: "Welcome to BGSL",
-    bgImage: "22",
-    date: "8th December",
-    time: "18:30",
-    ticketTimer: '2023-12-07T00:59:00',
-    ticketLimit: 90,
-    //Use the corrected date and time for changes in the date or time. Do not change the initial ones as it will make a new event in the DB
-    correctedDate: "",
-    correctedTime: "",
-    where: `Restaurant Fizz | Club Lix`,
-    entry: 10,
-    // memberEntry: 5,
-    including: ['menu + drinks + shot', 'menu + drinks + shot'],
-    price_id: 'price_1OGGd3IOw5UGbAo1ZTkZ4crk',
-    memberPrice_id: 'price_1OGGd3IOw5UGbAo1ZTkZ4crk',
-    activeMemberPrice_id: 'price_1OJVAmIOw5UGbAo1xGg2W94i',
-    discountPass: [
-      'simonatodorova2216@gmail.com',
-      'ivandikliev1@abv.bg',
-      'nikoltoneva88@gmail.com',
-      'dfawal@gmail.bg',
-      'deamira.st23@gmail.com',
-      'dimitrova04v@abv.bg',
-      'melisa_hristova@abv.bg',
-      'tonovivailo@gmail.com',
-      'alistaneva@gmail.com',
-      'danailova97@gmail.com',
-      'miryana.b.ivanova@gmail.com',
-      'vesi_it@abv.bg',
-      'alex_ivanov2002@gmail.com',
-      'bulgariansociety.lwd@gmail.com'
-    ],
-    freePass: ["vlady1002@abv.bg"],
-    extraInputs: true,
-    text: [
-      `The most iconic Bulgarian student celebration finally comes to Leeuwarden! Say ‘no’ to a boring Friday night and join us on December 8th to experience your MOST MEMORABLE evening of the year! 
-      `,
-      `Bulgarian comfort food, rhythms and so much more… `,
-      'We will be expecting you at 18:30 at @Fizz Leeuwarden ( Zaailand 106, 8911 BN Leeuwarden) and will welcome you with a shot of Rakiya and a piece of Pitka with honey or Sharena sol. ',
-      `What to expect? `,
-      `- A set of soul-warming appetizers
-      `,
-      `- A delicious main course `,
-      `- A dessert as good as if your grandma made it for you 
-      `,
+//   {
+//     visible: true,
+//     subEvent: {
+//       description: 'You can purchase ONLY the party from this event separately - just click below!',
+//       link: '/event-details/Bulgarian Party'
+//     },
+//     title: "Bulgarian Dinner & Party",
+//     description: "Welcome to BGSL",
+//     bgImage: "22",
+//     date: "8th December",
+//     time: "18:30",
+//     ticketTimer: '2023-12-07T00:59:00',
+//     ticketLimit: 90,
+//     //Use the corrected date and time for changes in the date or time. Do not change the initial ones as it will make a new event in the DB
+//     correctedDate: "",
+//     correctedTime: "",
+//     where: `Restaurant Fizz | Club Lix`,
+//     entry: 10,
+//     // memberEntry: 5,
+//     including: ['menu + drinks + shot', 'menu + drinks + shot'],
+//     price_id: 'price_1OGGd3IOw5UGbAo1ZTkZ4crk',
+//     memberPrice_id: 'price_1OGGd3IOw5UGbAo1ZTkZ4crk',
+//     activeMemberPrice_id: 'price_1OJVAmIOw5UGbAo1xGg2W94i',
+//     discountPass: [
+//       'simonatodorova2216@gmail.com',
+//       'ivandikliev1@abv.bg',
+//       'nikoltoneva88@gmail.com',
+//       'dfawal@gmail.bg',
+//       'deamira.st23@gmail.com',
+//       'dimitrova04v@abv.bg',
+//       'melisa_hristova@abv.bg',
+//       'tonovivailo@gmail.com',
+//       'alistaneva@gmail.com',
+//       'danailova97@gmail.com',
+//       'miryana.b.ivanova@gmail.com',
+//       'vesi_it@abv.bg',
+//       'alex_ivanov2002@gmail.com',
+//       'bulgariansociety.lwd@gmail.com'
+//     ],
+//     freePass: ["vlady1002@abv.bg"],
+//     extraInputs: true,
+//     text: [
+//       `The most iconic Bulgarian student celebration finally comes to Leeuwarden! Say ‘no’ to a boring Friday night and join us on December 8th to experience your MOST MEMORABLE evening of the year! 
+//       `,
+//       `Bulgarian comfort food, rhythms and so much more… `,
+//       'We will be expecting you at 18:30 at @Fizz Leeuwarden ( Zaailand 106, 8911 BN Leeuwarden) and will welcome you with a shot of Rakiya and a piece of Pitka with honey or Sharena sol. ',
+//       `What to expect? `,
+//       `- A set of soul-warming appetizers
+//       `,
+//       `- A delicious main course `,
+//       `- A dessert as good as if your grandma made it for you 
+//       `,
 
-      `To set the atmosphere, @djzander will be playing your favourite hits and will occasionally be inviting you for a horo. `,
-      `And do not worry, the evening will continue at Club LIXX starting from 23:00 where @djzander and @sashoangelov will make you feel at home with the sounds of Bulgarian music. Not only that but if you had been to the dinner, a FREE SHOT will be awaiting you at the club!
-      `,
-      `Bring your best party mood, we will be waiting for you! `,
-      `Tickets are limited so make sure to secure your spot NOW!`,
-      `*Available option to book place for the PARTY ONLY`
-    ],
-    ticket_img: '/assets/images/tickets/ticket-2.png',
-    images: ["/assets/images/portfolio/portfolio-1"],
-    thumbnail: "/assets/images/portfolio/portfolio-1",
-  },
-  {
-    visible: false,
-    title: "Bulgarian Party",
-    // newTitle: 'Bulgarian Dinner',
-    description: "Party like a Balkan",
-    bgImage: "24",
-    date: "8th December",
-    time: "23:00",
-    ticketTimer: '2023-12-08T23:00:00',
-    ticketLimit: 80,
-    //Use the corrected date and time for changes in the date or time. Do not change the initial ones as it will make a new event in the DB
-    correctedDate: "",
-    correctedTime: "",
-    where: `Club Lix`,
-    entry: 5,
-    memberEntry: 5,
-    including: ['', ''],
-    price_id: 'price_1OGGdsIOw5UGbAo1cbpW99BM',
-    memberPrice_id: 'price_1OGGdsIOw5UGbAo1cbpW99BM',
-    activeMemberPrice_id: 'price_1OJVBGIOw5UGbAo1X0cHDc3z',
-    discountPass: [
-      'simonatodorova2216@gmail.com',
-      'ivandikliev1@abv.bg',
-      'nikoltoneva88@gmail.com',
-      'dfawal@gmail.bg',
-      'deamira.st23@gmail.com',
-      'dimitrova04v@abv.bg',
-      'melisa_hristova@abv.bg',
-      'tonovivailo@gmail.com',
-      'alistaneva@gmail.com',
-      'danailova97@gmail.com',
-      'miryana.b.ivanova@gmail.com',
-      'vesi_it@abv.bg',
-      'alex_ivanov2002@gmail.com',
-      'bulgariansociety.lwd@gmail.com'
-    ],
-    freePass: ["vlady1002@abv.bg"],
-    extraInputs: false,
-    text: [
-      `The most iconic Bulgarian student celebration finally comes to Leeuwarden! Say ‘no’ to a boring Friday night and join us on December 8th to experience your MOST MEMORABLE evening of the year! 
-      `,
-      `Starting from 23:00 where @djzander and @sashoangelov will make you feel at home with the sounds of Bulgarian music. Not only that but if you had been to the dinner, a FREE SHOT will be awaiting you at the club!
-`,
-      `Bring your best party mood, we will be waiting for you! `,
-      `Tickets are limited so make sure to secure your spot NOW!`,
-      `*Available option to book place for the DINNER as well`
-    ],
-    ticket_img: '/assets/images/tickets/ticket-1.jpg',
-    images: ["/assets/images/portfolio/portfolio-1"],
-    thumbnail: "/assets/images/portfolio/portfolio-1",
-  },
+//       `To set the atmosphere, @djzander will be playing your favourite hits and will occasionally be inviting you for a horo. `,
+//       `And do not worry, the evening will continue at Club LIXX starting from 23:00 where @djzander and @sashoangelov will make you feel at home with the sounds of Bulgarian music. Not only that but if you had been to the dinner, a FREE SHOT will be awaiting you at the club!
+//       `,
+//       `Bring your best party mood, we will be waiting for you! `,
+//       `Tickets are limited so make sure to secure your spot NOW!`,
+//       `*Available option to book place for the PARTY ONLY`
+//     ],
+//     ticket_img: '/assets/images/tickets/ticket-2.png',
+//     images: ["/assets/images/portfolio/portfolio-1"],
+//     thumbnail: "/assets/images/portfolio/portfolio-1",
+//   },
+//   {
+//     visible: false,
+//     title: "Bulgarian Party",
+//     // newTitle: 'Bulgarian Dinner',
+//     description: "Party like a Balkan",
+//     bgImage: "24",
+//     date: "8th December",
+//     time: "23:00",
+//     ticketTimer: '2023-12-08T23:00:00',
+//     ticketLimit: 80,
+//     //Use the corrected date and time for changes in the date or time. Do not change the initial ones as it will make a new event in the DB
+//     correctedDate: "",
+//     correctedTime: "",
+//     where: `Club Lix`,
+//     entry: 5,
+//     memberEntry: 5,
+//     including: ['', ''],
+//     price_id: 'price_1OGGdsIOw5UGbAo1cbpW99BM',
+//     memberPrice_id: 'price_1OGGdsIOw5UGbAo1cbpW99BM',
+//     activeMemberPrice_id: 'price_1OJVBGIOw5UGbAo1X0cHDc3z',
+//     discountPass: [
+//       'simonatodorova2216@gmail.com',
+//       'ivandikliev1@abv.bg',
+//       'nikoltoneva88@gmail.com',
+//       'dfawal@gmail.bg',
+//       'deamira.st23@gmail.com',
+//       'dimitrova04v@abv.bg',
+//       'melisa_hristova@abv.bg',
+//       'tonovivailo@gmail.com',
+//       'alistaneva@gmail.com',
+//       'danailova97@gmail.com',
+//       'miryana.b.ivanova@gmail.com',
+//       'vesi_it@abv.bg',
+//       'alex_ivanov2002@gmail.com',
+//       'bulgariansociety.lwd@gmail.com'
+//     ],
+//     freePass: ["vlady1002@abv.bg"],
+//     extraInputs: false,
+//     text: [
+//       `The most iconic Bulgarian student celebration finally comes to Leeuwarden! Say ‘no’ to a boring Friday night and join us on December 8th to experience your MOST MEMORABLE evening of the year! 
+//       `,
+//       `Starting from 23:00 where @djzander and @sashoangelov will make you feel at home with the sounds of Bulgarian music. Not only that but if you had been to the dinner, a FREE SHOT will be awaiting you at the club!
+// `,
+//       `Bring your best party mood, we will be waiting for you! `,
+//       `Tickets are limited so make sure to secure your spot NOW!`,
+//       `*Available option to book place for the DINNER as well`
+//     ],
+//     ticket_img: '/assets/images/tickets/ticket-1.jpg',
+//     images: ["/assets/images/portfolio/portfolio-1"],
+//     thumbnail: "/assets/images/portfolio/portfolio-1",
+//   },
 ];
 
 export const OPEN_NON_SOCIETY_EVENTS = [
