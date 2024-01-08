@@ -35,7 +35,7 @@ const FormExtras = () => {
                     />
                 </div>
             </div>
-            <div className="col-lg-12 col-md-12 col-12">
+            {/* <div className="col-lg-12 col-md-12 col-12">
                 <div className="rnform-group">
                     <Field type='text' name="allergies" placeholder="Any allergies"
                     >
@@ -43,7 +43,7 @@ const FormExtras = () => {
                     </Field>
 
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
