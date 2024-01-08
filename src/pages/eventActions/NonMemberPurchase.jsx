@@ -105,7 +105,7 @@ const NonMemberPurchase = () => {
         />
 
         <div className="container">
-          <div className="mt--200">
+          {/* <div className="mt--200">
             {target.membersOnly ? <h3 className="center_text mb--80">Opps... it seems that this is an event exclusive to members! You still have a chance to enter!</h3> :
               <h2 className="center_text mb--80">Purchase a Ticket</h2>}
 
@@ -127,7 +127,7 @@ const NonMemberPurchase = () => {
                 <span className="">Become a Member</span>
               </a>
             </div>
-          </div>
+          </div> */}
           {!target.membersOnly && <div className="row">
             <div className="col-lg-4 col-md-12 col-12">
               <div className="mb--20">
