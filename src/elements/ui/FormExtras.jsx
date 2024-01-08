@@ -17,19 +17,20 @@ const FormExtras = () => {
             </div>
             <div className="col-lg-12 col-md-12 col-12">
                 <div className="rnform-group">
-                    <Field as="select" name="dessert">
+                    <Field as="select" name="drink">
                         <option value="" disabled>
-                            Select your dessert
+                            Select your drink
                         </option>
-                        <option value="Traditional biscuit cake">Traditional biscuit cake
+                        <option value="fizzy drink">fizzy drink
                         </option>
-                        <option value="Vegan biscuit cake">Vegan biscuit cake
+                        <option value="beer">beer
                         </option>
-
+                        <option value="wine">wine
+                        </option>
                     </Field>
                     <ErrorMessage
                         className="error"
-                        name="dessert"
+                        name="drink"
                         component="div"
                     />
                 </div>
