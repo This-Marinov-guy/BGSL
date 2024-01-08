@@ -7,20 +7,12 @@ const FormExtras = () => {
             <div className="col-lg-12 col-md-12 col-12">
                 <h3>Preferences</h3>
                 <div className="rnform-group">
-                    <Field as="select" name="menuType">
-                        <option value="" disabled>
-                            Select your main course
-                        </option>
-                        <option value="Moussaka">Moussaka</option>
-                        <option value="Vegan stuffed peppers">Vegan stuffed peppers
-                        </option>
-
-                    </Field>
-                    <ErrorMessage
-                        className="error"
-                        name="menuType"
-                        component="div"
-                    />
+                <Field type='text' placeholder='Team Name' name="team">
+                
+                </Field>
+                <small>*Only for the Belot Tournament</small>
+                <small>*Your teammate must also have a ticket and enter the same name</small>
+                <small>*Applies only if you already have a teammate</small>
                 </div>
             </div>
             <div className="col-lg-12 col-md-12 col-12">
