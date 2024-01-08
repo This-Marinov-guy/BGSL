@@ -3,10 +3,10 @@ export const OPEN_SOCIETY_EVENTS = [
   {
     disclaimer: 'Tickets for Belot',
     visible: true,
-    // subEvent: {
-    //   description: 'You can either play Belot or Uno (both run simultaneously)',
-    //   link: '/event-details/Game Night (Uno)'
-    // },
+    subEvent: {
+      description: 'You can either play Belot or Uno (both run simultaneously) - Link for the Uno game below',
+      link: '/event-details/Game Night (Uno)'
+    },
     title: "Game Night (Belot)",
     description: "🌟 Kickstart the new year with a bang! 🌟 ",
     bgImage: "23",
@@ -67,10 +67,10 @@ export const OPEN_SOCIETY_EVENTS = [
   {
     disclaimer: 'Tickets For Uno',
     visible: true,
-    // subEvent: {
-    //   description: 'You can either play Belot or Uno (both run simultaneously)',
-    //   link: '/event-details/Game Night (Uno)'
-    // },
+    subEvent: {
+      description: 'You can either play Uno or Belot (both run simultaneously) - Link for the Belot game below',
+      link: '/event-details/Game Night (Belot)'
+    },
     title: "Game Night (Uno)",
     description: "🌟 Kickstart the new year with a bang! 🌟 ",
     bgImage: "23",
