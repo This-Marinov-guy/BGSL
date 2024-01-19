@@ -80,19 +80,19 @@ const NonMemberPurchase = () => {
   } else if (eventClosed) {
     return (
       <div className="container center_text mt--100">
-      <ImageFb
-        className="logo mb--40"
-        src="/assets/images/logo/logo.webp"
-        fallback="/assets/images/logo/logo.jpg"
-        alt="Logo"
-      />
-      <h3 className="">Opps ... it is all SOLD OUT! Please check the event description for tickets on-the-door or contact us through our email! Hope we see you soon!</h3>
-      <a href='/'
-        className="rn-button-style--2 btn-solid mt--20"
-      >
-        Home
-      </a>
-    </div>)
+        <ImageFb
+          className="logo mb--40"
+          src="/assets/images/logo/logo.webp"
+          fallback="/assets/images/logo/logo.jpg"
+          alt="Logo"
+        />
+        <h3 className="">Opps ... it is all SOLD OUT! Please check the event description for tickets on-the-door or contact us through our email! Hope we see you soon!</h3>
+        <a href='/'
+          className="rn-button-style--2 btn-solid mt--20"
+        >
+          Home
+        </a>
+      </div>)
   } else {
     return (
       <Fragment>
@@ -101,7 +101,6 @@ const NonMemberPurchase = () => {
           headertransparent="header--transparent"
           colorblack="color--black"
           logoname="logo.png"
-          dark
         />
 
         <div className="container">
@@ -128,7 +127,7 @@ const NonMemberPurchase = () => {
               </a>
             </div>
           </div> */}
-          {!target.membersOnly && <div className="row">
+          {!target.membersOnly && <div className="row mt--200">
             <div className="col-lg-4 col-md-12 col-12">
               <div className="mb--20">
                 <ImageFb src={`${target.images[0]}.webp`} fallback={`${target.images[0]}.jpg`} alt="Event" className="title_img" />
