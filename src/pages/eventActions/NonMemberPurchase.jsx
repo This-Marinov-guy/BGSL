@@ -15,6 +15,7 @@ import { OPEN_SOCIETY_EVENTS } from "../../util/EVENTS";
 import { createCustomerTicket } from "../../util/ticket-creator"
 import FormExtras from "../../elements/ui/FormExtras";
 import { useHistory } from "react-router-dom";
+import HeaderTwo from "../../component/header/HeaderTwo";
 
 const schema = yup.object().shape({
   name: yup.string().required(),
@@ -97,11 +98,11 @@ const NonMemberPurchase = () => {
     return (
       <Fragment>
         <PageHelmet pageTitle="Buy Ticket" />
-        <Header
-          headertransparent="header--transparent"
-          colorblack="color--black"
-          logoname="logo.png"
-        />
+        <HeaderTwo
+        headertransparent="header--transparent"
+        colorblack="color--black"
+        logoname="logo.png"
+      />
 
         <div className="container">
           {/* <div className="mt--200">
