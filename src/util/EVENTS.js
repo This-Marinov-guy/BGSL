@@ -1,131 +1,131 @@
 // add ticket_link : '*link for the tickets' for outside ticket purchase
 export const OPEN_SOCIETY_EVENTS = [
-  {
-    disclaimer: 'Tickets for Belot',
-    visible: true,
-    subEvent: {
-      description: 'You can either play Belot or Uno (both run simultaneously) - Link for the Uno game below',
-      link: '/event-details/Game Night (Uno)'
-    },
-    title: "Game Night (Belot)",
-    description: "🌟 Kickstart the new year with a bang! 🌟 ",
-    bgImage: "23",
-    date: "20th January",
-    time: "19:30",
-    ticketTimer: '2024-01-20T19:00:00',
-    ticketLimit: 64,
-    //Use the corrected date and time for changes in the date or time. Do not change the initial ones as it will make a new event in the DB
-    correctedDate: "",
-    correctedTime: "",
-    where: `Grote Keizer Bowling`,
-    entry: 6,
-    // memberEntry: 5,
-    including: ['+ drink by choice', '+ drink by choice'],
-    price_id: 'price_1OVyivIOw5UGbAo1Yuob9lhb',
-    memberPrice_id: 'price_1OVyivIOw5UGbAo1Yuob9lhb',
-    activeMemberPrice_id: 'price_1OWBaCIOw5UGbAo1fi6OwKrL',
-    discountPass: [
-      'simonatodorova2216@gmail.com',
-      'ivandikliev1@abv.bg',
-      'nikoltoneva88@gmail.com',
-      'dfawal@gmail.bg',
-      'deamira.st23@gmail.com',
-      'dimitrova04v@abv.bg',
-      'melisa_hristova@abv.bg',
-      'tonovivailo@gmail.com',
-      'alistaneva@gmail.com',
-      'danailova97@gmail.com',
-      'miryana.b.ivanova@gmail.com',
-      'vesi_it@abv.bg',
-      'alex_ivanov2002@gmail.com',
-      'bulgariansociety.lwd@gmail.com'
-    ],
-    freePass: ["vlady1002@abv.bg"],
-    extraInputs: true,
-    text: [
-      `Hope you get a good rest during the holidays because BGSL starts strong with the first event for the year.  
-      `,
-      `👫 Belot Tournament:
-      `,
-      '- Limited Spaces: 32 people (16 teams of 2)',
-      `- Sign up alone? No worries! We'll find you a teammate.
-      `,
-      `- Cash Prize: €30 for the winning team!
-      `,
-      ` Don't miss the chance to kick off the year with some friendly competition, exciting games, and awesome prizes!
-      `,
-      `Let the games begin! 🏆🃏
-      `,
+  // {
+  //   disclaimer: 'Tickets for Belot',
+  //   visible: true,
+  //   subEvent: {
+  //     description: 'You can either play Belot or Uno (both run simultaneously) - Link for the Uno game below',
+  //     link: '/event-details/Game Night (Uno)'
+  //   },
+  //   title: "Game Night (Belot)",
+  //   description: "🌟 Kickstart the new year with a bang! 🌟 ",
+  //   bgImage: "23",
+  //   date: "20th January",
+  //   time: "19:30",
+  //   ticketTimer: '2024-01-20T19:00:00',
+  //   ticketLimit: 64,
+  //   Use the corrected date and time for changes in the date or time. Do not change the initial ones as it will make a new event in the DB
+  //   correctedDate: "",
+  //   correctedTime: "",
+  //   where: `Grote Keizer Bowling`,
+  //   entry: 6,
+  //   memberEntry: 5,
+  //   including: ['+ drink by choice', '+ drink by choice'],
+  //   price_id: 'price_1OVyivIOw5UGbAo1Yuob9lhb',
+  //   memberPrice_id: 'price_1OVyivIOw5UGbAo1Yuob9lhb',
+  //   activeMemberPrice_id: 'price_1OWBaCIOw5UGbAo1fi6OwKrL',
+  //   discountPass: [
+  //     'simonatodorova2216@gmail.com',
+  //     'ivandikliev1@abv.bg',
+  //     'nikoltoneva88@gmail.com',
+  //     'dfawal@gmail.bg',
+  //     'deamira.st23@gmail.com',
+  //     'dimitrova04v@abv.bg',
+  //     'melisa_hristova@abv.bg',
+  //     'tonovivailo@gmail.com',
+  //     'alistaneva@gmail.com',
+  //     'danailova97@gmail.com',
+  //     'miryana.b.ivanova@gmail.com',
+  //     'vesi_it@abv.bg',
+  //     'alex_ivanov2002@gmail.com',
+  //     'bulgariansociety.lwd@gmail.com'
+  //   ],
+  //   freePass: ["vlady1002@abv.bg"],
+  //   extraInputs: true,
+  //   text: [
+  //     `Hope you get a good rest during the holidays because BGSL starts strong with the first event for the year.  
+  //     `,
+  //     `👫 Belot Tournament:
+  //     `,
+  //     '- Limited Spaces: 32 people (16 teams of 2)',
+  //     `- Sign up alone? No worries! We'll find you a teammate.
+  //     `,
+  //     `- Cash Prize: €30 for the winning team!
+  //     `,
+  //     ` Don't miss the chance to kick off the year with some friendly competition, exciting games, and awesome prizes!
+  //     `,
+  //     `Let the games begin! 🏆🃏
+  //     `,
 
-      `* Sign up period: 08.01.2024 until  spots are full 
-      `,
-    ],
-    ticket_img: '/assets/images/tickets/ticket-3.jpg',
-    images: ["/assets/images/portfolio/portfolio-2"],
-    thumbnail: "/assets/images/portfolio/portfolio-2",
-  },
-  {
-    disclaimer: 'Tickets For Uno',
-    visible: true,
-    subEvent: {
-      description: 'You can either play Uno or Belot (both run simultaneously) - Link for the Belot game below',
-      link: '/event-details/Game Night (Belot)'
-    },
-    title: "Game Night (Uno)",
-    description: "🌟 Kickstart the new year with a bang! 🌟 ",
-    bgImage: "23",
-    date: "20th January",
-    time: "19:30",
-    ticketTimer: '2024-01-20T21:00:00',
-    ticketLimit: 100,
-    //Use the corrected date and time for changes in the date or time. Do not change the initial ones as it will make a new event in the DB
-    correctedDate: "",
-    correctedTime: "",
-    where: `Grote Keizer Bowling`,
-    entry: 6,
-    // memberEntry: 5,
-    including: ['+ drink by choice', '+ drink by choice'],
-    price_id: 'price_1OVyivIOw5UGbAo1Yuob9lhb',
-    memberPrice_id: 'price_1OVyivIOw5UGbAo1Yuob9lhb',
-    activeMemberPrice_id: 'price_1OWBaCIOw5UGbAo1fi6OwKrL',
-    discountPass: [
-      'simonatodorova2216@gmail.com',
-      'ivandikliev1@abv.bg',
-      'nikoltoneva88@gmail.com',
-      'dfawal@gmail.bg',
-      'deamira.st23@gmail.com',
-      'dimitrova04v@abv.bg',
-      'melisa_hristova@abv.bg',
-      'tonovivailo@gmail.com',
-      'alistaneva@gmail.com',
-      'danailova97@gmail.com',
-      'miryana.b.ivanova@gmail.com',
-      'vesi_it@abv.bg',
-      'alex_ivanov2002@gmail.com',
-      'bulgariansociety.lwd@gmail.com'
-    ],
-    freePass: ["vlady1002@abv.bg"],
-    extraInputs: true,
-    text: [
-      `Hope you get a good rest during the holidays because BGSL starts strong with the first event for the year.  
-      `,
-      `👫 Uno Tournament:
-      `,
-      '- Unlimited Spaces!',
-      `- Cash Prize: €15 for the ultimate Uno champion!
-      `,
-      ` Don't miss the chance to kick off the year with some friendly competition, exciting games, and awesome prizes!
-      `,
-      `Let the games begin! 🏆🃏
-      `,
+  //     `* Sign up period: 08.01.2024 until  spots are full 
+  //     `,
+  //   ],
+  //   ticket_img: '/assets/images/tickets/ticket-3.jpg',
+  //   images: ["/assets/images/portfolio/portfolio-2"],
+  //   thumbnail: "/assets/images/portfolio/portfolio-2",
+  // },
+  // {
+  //   disclaimer: 'Tickets For Uno',
+  //   visible: true,
+  //   subEvent: {
+  //     description: 'You can either play Uno or Belot (both run simultaneously) - Link for the Belot game below',
+  //     link: '/event-details/Game Night (Belot)'
+  //   },
+  //   title: "Game Night (Uno)",
+  //   description: "🌟 Kickstart the new year with a bang! 🌟 ",
+  //   bgImage: "23",
+  //   date: "20th January",
+  //   time: "19:30",
+  //   ticketTimer: '2024-01-20T21:00:00',
+  //   ticketLimit: 100,
+  //   Use the corrected date and time for changes in the date or time. Do not change the initial ones as it will make a new event in the DB
+  //   correctedDate: "",
+  //   correctedTime: "",
+  //   where: `Grote Keizer Bowling`,
+  //   entry: 6,
+  //   memberEntry: 5,
+  //   including: ['+ drink by choice', '+ drink by choice'],
+  //   price_id: 'price_1OVyivIOw5UGbAo1Yuob9lhb',
+  //   memberPrice_id: 'price_1OVyivIOw5UGbAo1Yuob9lhb',
+  //   activeMemberPrice_id: 'price_1OWBaCIOw5UGbAo1fi6OwKrL',
+  //   discountPass: [
+  //     'simonatodorova2216@gmail.com',
+  //     'ivandikliev1@abv.bg',
+  //     'nikoltoneva88@gmail.com',
+  //     'dfawal@gmail.bg',
+  //     'deamira.st23@gmail.com',
+  //     'dimitrova04v@abv.bg',
+  //     'melisa_hristova@abv.bg',
+  //     'tonovivailo@gmail.com',
+  //     'alistaneva@gmail.com',
+  //     'danailova97@gmail.com',
+  //     'miryana.b.ivanova@gmail.com',
+  //     'vesi_it@abv.bg',
+  //     'alex_ivanov2002@gmail.com',
+  //     'bulgariansociety.lwd@gmail.com'
+  //   ],
+  //   freePass: ["vlady1002@abv.bg"],
+  //   extraInputs: true,
+  //   text: [
+  //     `Hope you get a good rest during the holidays because BGSL starts strong with the first event for the year.  
+  //     `,
+  //     `👫 Uno Tournament:
+  //     `,
+  //     '- Unlimited Spaces!',
+  //     `- Cash Prize: €15 for the ultimate Uno champion!
+  //     `,
+  //     ` Don't miss the chance to kick off the year with some friendly competition, exciting games, and awesome prizes!
+  //     `,
+  //     `Let the games begin! 🏆🃏
+  //     `,
 
-      `* Sign up period: 08.01.2024 until game begins 
-      `,
-    ],
-    ticket_img: '/assets/images/tickets/ticket-4.jpg',
-    images: ["/assets/images/portfolio/portfolio-2"],
-    thumbnail: "/assets/images/portfolio/portfolio-2",
-  },
+  //     `* Sign up period: 08.01.2024 until game begins 
+  //     `,
+  //   ],
+  //   ticket_img: '/assets/images/tickets/ticket-4.jpg',
+  //   images: ["/assets/images/portfolio/portfolio-2"],
+  //   thumbnail: "/assets/images/portfolio/portfolio-2",
+  // },
 ];
 
 export const OPEN_NON_SOCIETY_EVENTS = [
